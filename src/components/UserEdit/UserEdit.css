@@ -1,0 +1,67 @@
+/* UserEdit.css */
+
+/* Basic styling for the form */
+.user-edit-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title style */
+  .form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Style for form fields (input + label) */
+  .form-field {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the input fields */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .input-field:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Style for the submit button */
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
